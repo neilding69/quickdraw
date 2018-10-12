@@ -10,10 +10,10 @@ import os.path as path
 data_path='/raid5/liuchang/quick_draw_output'
 
 with open(path.join(data_path,'data_X'),'rb') as f:
-    X=pickle.dump(f)
+    X=pickle.load(f)
 
 with open(path.join(data_path,'data_Y'),'rb') as f:
-    Y=pickle.dump(f)
+    Y=pickle.load(f)
 
 len_train_X=int(len(X)*0.8)
 
