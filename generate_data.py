@@ -28,8 +28,8 @@ import os.path as path
 import ndjson
 
 dataset_path='/raid5/liuchang/quick_draw'
-class_name = -1  # class_name==-1 means all class
-country_code=['JP'] #country_code==-1 means all countries
+class_name = ['calender', 'snowman', 'penguin', 'blackberry', 'teddy-bear']  # class_name=-1 means all class
+country_code = ['JP', 'CN', 'DE']  # country_code=-1 means all countries
 output_path='/raid5/liuchang/quick_draw_output'
 
 
@@ -49,8 +49,6 @@ splitted=[]
 i =0
 for file_path in glob.iglob(path.join(dataset_path,'*.ndjson')):
     i += 1
-    if i > 2:
-        break
     label=file_path.split('/')[-1].split('.')[0]
     if class_name!=-1 and label not in class_name:
         continue
