@@ -25,4 +25,4 @@ def get_dataset(dataset_path='/raid5/liuchang/quick_draw_output/',dataset_name='
     (train_Recognized, train_X, train_Y, test_Recognized, test_X, test_Y)=pickle.load(open(os.path.join(dataset_path,dataset_name),'rb'))
     train_X=_cut_stroke(train_X,train_r)
     test_X=_cut_stroke(test_X,test_r)
-    return train_X[:train_r],train_Y[:train_r],test_X[:test_r],test_Y[:test_r]
+    return train_X,train_Y,test_X,test_Y
