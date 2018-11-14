@@ -1,5 +1,17 @@
 # Quickdraw
-ntu project group 3 
+GroupID: Group 3
+
+## Description: 
+"Quick, Draw!" is a game prompts users to draw an image depicting a certain category, such as ”banana,” “table,” etc. 
+
+## Motivation:
+Dataset: Drawing Incomplete / Complete
+Predict Complete and Incomplete Drawing Task
+When provide partial strokes, our model can still predict successfully. 
+
+## Solutions:
+Traditional: CNN
+Project proposed RNN and CNN-RNN, RNN-CNN
 
 ## Author
 1. Liu Chang
