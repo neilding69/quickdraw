@@ -5,13 +5,8 @@ GroupID: Group 3
 "Quick, Draw!" is a game prompts users to draw an image depicting a certain category, such as ”banana,” “table,” etc. 
 
 ## Motivation:
-Dataset: Drawing Incomplete / Complete
-Predict Complete and Incomplete Drawing Task
-When provide partial strokes, our model can still predict successfully. 
-
-## Solutions:
-Traditional: CNN
-Project proposed RNN and CNN-RNN, RNN-CNN
+1. Dataset: Drawing Incomplete / Complete
+2. Predict Complete and Incomplete Drawing Task. When provide partial strokes, our model can still predict successfully. 
 
 ## Author
 1. Liu Chang
