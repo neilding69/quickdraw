@@ -15,9 +15,10 @@ To build models that make prediction out of Complete as well as Incomplete sketc
 
 ## To Run the codes
 1. Get raw data: 1102_05b633244.dms
+
 https://drive.google.com/drive/folders/1ovQX5gqle7JOL7RcO6f_05n7DW2FrOUk?usp=sharing
 2. Run DatasetGeneration.ipynb in the utils folder, to generate data files. use lines in read_data.py in your code to load these files.
-3. Pick a model that you wants to run, change the data path and you should be ready to go.
+3. Pick a model that you want to run, change the data path and you should be ready to go.
 
 All codes and other data are also available at git clone https://github.com/neilding69/quickdraw
 
