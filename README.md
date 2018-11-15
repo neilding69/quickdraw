@@ -2,11 +2,10 @@
 GroupID: Group 3
 
 ## Description: 
-"Quick, Draw!" is a game prompts users to draw an image depicting a certain category, such as ”banana,” “table,” etc. 
+Quick, Draw! is an online game developed by Google that challenges players to draw a picture of an object or idea and then uses a neural network artificial intelligence to guess what the drawings represent.
 
 ## Motivation:
-1. Dataset: Drawing Incomplete / Complete
-2. Predict Complete and Incomplete Drawing Task. When provide partial strokes, our model can still predict successfully. 
+To build models that make prediction out of Complete as well as Incomplete sketches and compare the results.
 
 ## Author
 1. Liu Chang
@@ -14,16 +13,19 @@ GroupID: Group 3
 3. Qiu Yang
 4. Ding Shuya
 
-## Note
-1. Please get raw data: 1102_05b633244.dms
+## To Run the codes
+1. Get raw data: 1102_05b633244.dms
 https://drive.google.com/drive/folders/1ovQX5gqle7JOL7RcO6f_05n7DW2FrOUk?usp=sharing
-2. git clone https://github.com/neilding69/quickdraw
+2. Run DatasetGeneration.ipynb in the utils folder, to generate data files. use lines in read_data.py in your code to load these files.
+3. Pick a model that you wants to run, change the data path and you should be ready to go.
+
+All codes and other data are also available at git clone https://github.com/neilding69/quickdraw
 
 ## Folder Structure
 1. Person_Modelname.ipynb：model reproduce 
 2. Data Analysis: data analysis of quick draw
 3. Utils folder: data generation and preprocessing file 
-4. Toy_dataset folder: some toy dataset 
+4. Toy_dataset folder: some toy dataset (used in qiuyang_lstm_cnn.ipynb)
 
 ## Model Structure 
 1. CNN: dingshuya_cnn.ipynb
